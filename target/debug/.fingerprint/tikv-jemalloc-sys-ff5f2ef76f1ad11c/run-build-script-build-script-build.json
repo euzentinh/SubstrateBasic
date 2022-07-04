@@ -1,0 +1,1 @@
+{"rustc":3678934074608471201,"features":"","target":0,"profile":0,"path":0,"deps":[[3410516261153419329,"build_script_build",false,17255852717276442158]],"local":[{"RerunIfChanged":{"output":"debug/build/tikv-jemalloc-sys-ff5f2ef76f1ad11c/output","paths":["jemalloc"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

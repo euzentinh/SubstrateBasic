@@ -1,0 +1,10 @@
+/Users/caerux/Documents/Project/Blockchain/Substrate_Temp/substrate-node-template/target/debug/deps/parity_util_mem-b4b6e593e9635e30.rmeta: /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/lib.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/allocators.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/sizeof.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/malloc_size.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/primitives_impls.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/memory_stats_noop.rs
+
+/Users/caerux/Documents/Project/Blockchain/Substrate_Temp/substrate-node-template/target/debug/deps/parity_util_mem-b4b6e593e9635e30.d: /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/lib.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/allocators.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/sizeof.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/malloc_size.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/primitives_impls.rs /Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/memory_stats_noop.rs
+
+/Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/lib.rs:
+/Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/allocators.rs:
+/Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/sizeof.rs:
+/Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/malloc_size.rs:
+/Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/primitives_impls.rs:
+/Users/caerux/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-util-mem-0.11.0/src/memory_stats_noop.rs:
