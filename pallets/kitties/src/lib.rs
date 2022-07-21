@@ -17,7 +17,7 @@ use frame_support::inherent::Vec;
 
 #[frame_support::pallet]
 pub mod pallet {
-	use frame_support::{pallet_prelude::{*, ValueQuery, StorageMap}, Blake2_128Concat};
+	use frame_support::{pallet_prelude::{*, ValueQuery, StorageMap}, Blake2_128Concat, traits::UnixTime};
 	use frame_system::{pallet_prelude::*};
 	use frame_support::inherent::Vec;
 
@@ -28,6 +28,7 @@ pub mod pallet {
 		owner: T::AccountId,
 		price: u32,
 		gender: Gender,
+		created_time: u64,
 	}
 
 	pub type Id = u32;
@@ -50,6 +51,7 @@ pub mod pallet {
 	pub trait Config: frame_system::Config {
 		/// Because this pallet emits events, it depends on the runtime's definition of an event.
 		type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
+		type TimeProvider: UnixTime;
 	}
 
 	#[pallet::pallet]
@@ -110,12 +112,13 @@ pub mod pallet {
 			let who = ensure_signed(origin)?;
 
 			let gender = Self::check_gender(dna.clone())?;
-
+			let created_time = T::TimeProvider::now();
 			let new_kitty: Kitty<T> = Kitty {
 				dna: dna.clone(),
 				owner: who.clone(),
 				price: price,
 				gender: gender,
+				created_time: created_time.as_secs(),
 			};
 
 			let current_id = <KittyId<T>>::get();
